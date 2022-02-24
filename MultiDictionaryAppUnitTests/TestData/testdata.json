@@ -1,0 +1,28 @@
+﻿{
+  "testscenarios": [
+    {
+      "expected": "Error: Invalid Command",
+      "input": ""
+    },
+    {
+      "expected": "Error: Invalid Data",
+      "input": "sdfg fdh fyh dfh"
+    },
+    {
+      "expected": "Command dfgfd is Invalid",
+      "input": "dfgfd dfgh bhndfh"
+    },
+    {
+      "expected": "Error: please enter Key and Members",
+      "input": "ADD foo "
+    },
+    {
+      "expected": "Error: please enter Key",
+      "input": "MEMBERS"
+    },
+    {
+      "expected": "Command keys is Invalid",
+      "input": "keys"
+    }
+  ]
+}
